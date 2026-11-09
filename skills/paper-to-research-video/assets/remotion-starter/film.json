@@ -1,0 +1,71 @@
+{
+  "paper": {
+    "title": "A research question worth seeing",
+    "authors": "Example Research Team",
+    "institution": "Synthetic fixture",
+    "source": "Synthetic fixture — replace with a real paper"
+  },
+  "settings": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "target_seconds": 90,
+    "language": "en",
+    "fixture": true
+  },
+  "claims": [
+    {"id": "C1", "text": "An example system has an input, computation, and output.", "status": "illustrative", "evidence": []},
+    {"id": "C2", "text": "An example constraint motivates a method.", "status": "illustrative", "evidence": []},
+    {"id": "C3", "text": "A controlled comparison uses the same metric and input.", "status": "illustrative", "evidence": []},
+    {"id": "C4", "text": "Reported outcomes must come from a source figure or table.", "status": "illustrative", "evidence": []}
+  ],
+  "assets": [],
+  "scenes": [
+    {
+      "id": "identity", "seconds": 7, "kind": "title", "eyebrow": "RESEARCH FILM",
+      "headline": "A research question worth seeing", "body": "Replace this fixture with the paper's real problem.",
+      "caption": "A 90-second research story begins here.", "claim_ids": [], "asset_ids": [], "visual": {}
+    },
+    {
+      "id": "system", "seconds": 11, "kind": "system", "eyebrow": "01  |  THE SYSTEM",
+      "headline": "Show what actually runs", "body": "Make the paper's real workflow understandable before presenting results.",
+      "caption": "Establish the input, computation, and output.", "claim_ids": ["C1"], "asset_ids": [],
+      "visual": {"left_label": "INPUT", "right_label": "OUTPUT", "center_label": "SYSTEM"}
+    },
+    {
+      "id": "tension", "seconds": 12, "kind": "problem", "eyebrow": "02  |  THE TENSION",
+      "headline": "Make the constraint visible", "body": "The baseline and the bottleneck should share one frame.",
+      "caption": "Illustrative bottleneck — replace with the paper's measured or stated constraint.", "claim_ids": ["C2"], "asset_ids": [],
+      "visual": {"left_label": "BASELINE", "left_value": "Current path", "left_note": "Describe the real setup", "right_label": "CONSTRAINT", "right_value": "What breaks?", "right_note": "Cite the paper"}
+    },
+    {
+      "id": "method", "seconds": 13, "kind": "method", "eyebrow": "03  |  THE IDEA",
+      "headline": "Reveal the design decision", "body": "Follow one input through the method; show only the components needed for the result.",
+      "caption": "Animate the paper's actual mechanism, not a generic technology stack.", "claim_ids": ["C2"], "asset_ids": [],
+      "visual": {"left_label": "INPUT", "center_label": "METHOD", "right_label": "OUTPUT"}
+    },
+    {
+      "id": "comparison", "seconds": 16, "kind": "comparison", "eyebrow": "04  |  THE TEST",
+      "headline": "Compare like with like", "body": "Show the same condition, metric, and denominator on both sides.",
+      "caption": "Example comparison only. Insert the paper's conditions and values.", "claim_ids": ["C3"], "asset_ids": [],
+      "visual": {"left_label": "BASELINE", "left_value": "—", "left_note": "Paper-backed value", "right_label": "METHOD", "right_value": "—", "right_note": "Same metric and input"}
+    },
+    {
+      "id": "mechanism", "seconds": 11, "kind": "mechanism", "eyebrow": "05  |  WHY IT HAPPENS",
+      "headline": "Connect cause to observation", "body": "Separate an isolated mechanism from an author interpretation.",
+      "caption": "The visual must match what the paper actually supports.", "claim_ids": ["C4"], "asset_ids": [],
+      "visual": {"left_label": "CAUSE", "center_label": "PROCESS", "right_label": "OBSERVATION"}
+    },
+    {
+      "id": "result", "seconds": 13, "kind": "result", "eyebrow": "06  |  THE EVIDENCE",
+      "headline": "Let the result breathe", "body": "One large comparison beats a grid of tiny paper figures.",
+      "caption": "Synthetic fixture. Replace all values, units, and caveats before delivery.", "claim_ids": ["C4"], "asset_ids": [],
+      "visual": {"left_label": "CONTROL", "left_value": "—", "left_note": "Source: figure/table", "right_label": "PROPOSED", "right_value": "—", "right_note": "Include the trade-off"}
+    },
+    {
+      "id": "takeaway", "seconds": 7, "kind": "closing", "eyebrow": "THE TAKEAWAY",
+      "headline": "A precise claim. A clear boundary.", "body": "End with what the evidence means and where it applies.",
+      "caption": "Replace this line with the paper's supported conclusion.", "claim_ids": ["C4"], "asset_ids": [], "visual": {}
+    }
+  ]
+}

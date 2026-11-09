@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "paper-to-research-video",
+  "version": "0.1.0",
+  "description": "Turn a research paper and its available evidence into a source-faithful, approximately 90-second research video.",
+  "keywords": ["research", "paper", "video", "science communication"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Paper to Research Video",
+        "shortDescription": "90-second paper videos",
+        "longDescription": "Create a source-grounded 80–100 second research video from an academic paper and available figures or recordings. Build a claim ledger, shot list, animated scenes, captions, and an MP4. Recorded footage must be supplied or captured; explanatory scenes are labeled. Local rendering tools and scientific review are required.",
+        "developerName": "Jihoon",
+        "category": "Productivity",
+        "capabilities": ["Read papers", "Create videos"],
+        "defaultPrompt": [
+          "Turn this paper into a polished 90-second research video with verified claims, captions, and an MP4.",
+          "Make a silent, captioned conference demo film from this paper and its figures."
+        ],
+        "brandColor": "#153144",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "publication": {
+        "release_notes": "Initial skill release with evidence checks and a Remotion production starter."
+      }
+    }
+  }
+}

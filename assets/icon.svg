@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Paper to Research Video">
+  <rect width="512" height="512" rx="112" fill="#153144"/>
+  <path d="M126 76h172l86 86v262c0 17-14 31-31 31H126c-17 0-31-14-31-31V107c0-17 14-31 31-31Z" fill="#F5F8F8"/>
+  <path d="M298 76v70c0 15 12 27 27 27h59Z" fill="#BED7DF"/>
+  <rect x="132" y="208" width="191" height="17" rx="8.5" fill="#B7CFD8"/>
+  <rect x="132" y="250" width="145" height="17" rx="8.5" fill="#B7CFD8"/>
+  <rect x="132" y="292" width="106" height="17" rx="8.5" fill="#B7CFD8"/>
+  <circle cx="306" cy="317" r="87" fill="#138DA0"/>
+  <path d="m281 266 74 51-74 51Z" fill="#FFFFFF"/>
+  <rect x="132" y="374" width="119" height="15" rx="7.5" fill="#C7773D"/>
+</svg>

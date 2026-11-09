@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+node_modules/
+out/
+.env
+.env.*
+*.pdf
+*.mp4
+*.mov
+*.webm
+*.zip

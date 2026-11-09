@@ -1,0 +1,24 @@
+{
+  "name": "paper-to-research-video-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Editable Remotion starter for a paper-grounded 90-second research video",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "compositions": "remotion compositions src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts PaperFilm out/paper-film.mp4 --codec=h264 --pixel-format=yuv420p --concurrency=2",
+    "still": "remotion still src/index.ts PaperFilm out/check.png --frame=150"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.540",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
